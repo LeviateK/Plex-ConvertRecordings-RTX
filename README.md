@@ -10,6 +10,8 @@ Requires:
 
 Usage:
 Convert-PlexRecordings-RTX.ps1 -inProcessPath C:\Plex
+This is NOT a post-processing script, but a standalone script that can be run interactively or via scheduled task
+Currently, this has only been used on Windows.
 
 Notes:
 1) Source TS file will be removed forcefully after successful conversion.  If you wish to keep it, comment out line 166 (Remove-Item)
