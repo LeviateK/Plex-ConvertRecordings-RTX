@@ -10,7 +10,9 @@ Requires:
 
 Usage:
 Convert-PlexRecordings-RTX.ps1 -inProcessPath C:\Plex
+
 This is NOT a post-processing script, but a standalone script that can be run interactively or via scheduled task
+
 Currently, this has only been used on Windows.
 
 Notes:
